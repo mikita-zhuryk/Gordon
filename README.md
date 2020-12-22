@@ -30,3 +30,6 @@ I even added a nifty little test script for you called `test.py`.
 
 ## Disclaimer
 The license only applies to the code, I don't own any of the sounds, please don't sue me Fox.
+
+### Pro tip:
+Works really well together with https://github.com/nvbn/thefuck
