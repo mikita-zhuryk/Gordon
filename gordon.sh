@@ -9,7 +9,7 @@ function gordon()
             afplay $GORDON_INSULTS/$insult & disown
         elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
             insult=$(ls $GORDON_INSULTS | shuf -n 1)
-            mpv --really-quiet $GORDON_INSULTS/$insult & disown
+            mpv --really-quiet  --af=loudnorm=I=-30 $GORDON_INSULTS/$insult & disown
         fi
     fi
 }
